@@ -16,17 +16,17 @@ export default function About1() {
                                 <div className="about-content">
                                     <div className="section-title mb-25">
                                         <span className="sub-title">About Company</span>
-                                        <h2 className="title">A Full Service Design and Branding Agency</h2>
+                                        <h2 className="title">Creativity Meets Strategy | Design Meets Impact</h2>
                                     </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <p>At <b>Realms MediaWorks,</b> we don’t just create visuals—we craft experiences. Whether it’s a logo that speaks volumes, a website that converts, or a reel that grabs eyeballs, we bring brands to life with designs that <b>stand out and sell</b>.</p>
                                     <ul className="list-wrap">
                                         <li>
                                             <div className="icon">
                                                 <img src="/assets/img/icon/about_icon01.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Concept Creation</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Bold Branding</h4>
+                                                <p>Logos, business cards & brand identities that make a statement</p>
                                             </div>
                                         </li>
                                         <li>
@@ -34,21 +34,94 @@ export default function About1() {
                                                 <img src="/assets/img/icon/about_icon02.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Sketch Drawing</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Scroll-Stopping Visuals</h4>
+                                                <p>Brochures, posters & social media creatives that demand attention.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                            </div>
+                                            <div className="content">
+                                            <h4 className="title">Reel & Video Magic</h4>
+                                            <p>High-quality edits that turn views into engagement</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                            </div>
+                                            <div className="content">
+                                                <h4 className="title">Smart Websites</h4>
+                                                <p>Sleek, user-friendly, and built to convert.</p>
                                             </div>
                                         </li>
                                     </ul>
-                                    <div className="about-content-bottom">
-                                        <span>Think Creative Agency Are a Full Service Design</span>
-                                        <div className="read-more-btn">
-                                            <Link href="/about-us" className="btn">Read More <span /></Link>
-                                        </div>
-                                    </div>
+                                  
+
+                                  
                                 </div>
                             </div>
                         </div>
+
+
+                        <h2 className="text-center">Why Choose Realms?</h2>
+                    <div className="about-below-content">
+                          
+                            <div className="about-below-images">
+                            <img src="/assets/img/images/about_img.jpg" alt="" />
+
+                            </div>
+                                
+                                <div className="details-below-abt">
+                                <ul className="list-wrap">
+                                        <li>
+                                            <div className="icon">
+                                                <img src="/assets/img/icon/about_icon01.png" alt="" />
+                                            </div>
+                                            <div className="content">
+                                                <p>We <b>don’t do boring—our designs</b> are fresh, modern & impactful.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                            </div>
+                                            <div className="content">
+                                               
+                                                <p>We <b>think like marketers</b>, so every visual drives results.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                            </div>
+                                            <div className="content">
+                                         
+                                            <p>We <b>deliver on time—no overpromising</b>, just stunning work.</p>
+                                            </div>
+                                        </li>
+                                      
+                                    </ul>
+                                    <div className="about-content-bottom">
+                                        <span>Let’s make something amazing together</span>
+                                        <div className="read-more-btn">
+                                            <Link href="/about-us" className="btn"> Contact Us <span /></Link>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                </div>
+                            </div> 
+                           
+
+
+                        
                     </div>
+
+                   
+
                 </div>
             </section>
 

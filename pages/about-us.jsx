@@ -57,7 +57,7 @@ export default function AboutUs() {
     return (
         <>
             <Layout breadcrumbTitle="About Us" breadcrumbCls="pt-175 pb-140">
-                <section className="counter-area-three">
+                {/* <section className="counter-area-three">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 order-0 order-lg-2">
@@ -126,10 +126,10 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* counter-area-two */}
                 {/* team-area */}
-                <section className="team-area-two pt-110 pb-120">
+                {/* <section className="team-area-two pt-110 pb-120">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-7">
@@ -237,10 +237,10 @@ export default function AboutUs() {
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                </section>
+                </section> */}
                 {/* team-area-end */}
                 {/* consultation-area */}
-                <section className="consultation-area consultation-area-two pt-120 pb-120">
+                {/* <section className="consultation-area consultation-area-two pt-120 pb-120">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7">
@@ -297,10 +297,10 @@ export default function AboutUs() {
                         <img src="/assets/img/images/consultation_shape01.png" alt="" className="shape-one ribbonRotate" />
                         <img src="/assets/img/images/consultation_shape02.png" alt="" className="shape-two float-bob-x" />
                     </div>
-                </section>
+                </section> */}
                 {/* consultation-area-end */}
                 {/* services-area */}
-                <section className="inner-services-area pt-110 pb-100">
+                {/* <section className="inner-services-area pt-110 pb-100">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
@@ -403,10 +403,10 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* services-area-end */}
                 {/* success-area */}
-                <section className="success-area pb-120">
+                {/* <section className="success-area pb-120">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 order-0 order-lg-2">
@@ -469,10 +469,10 @@ export default function AboutUs() {
                         <img src="/assets/img/images/success_shape01.png" alt="" />
                         <img src="/assets/img/images/success_shape02.png" alt="" />
                     </div>
-                </section>
+                </section> */}
                 {/* success-area-end */}
                 {/* history-area */}
-                <section className="history-area">
+                {/* <section className="history-area">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-6 col-lg-8">
@@ -543,7 +543,7 @@ export default function AboutUs() {
                         <img src="/assets/img/images/history_shape01.png" alt="" />
                         <img src="/assets/img/images/history_shape02.png" alt="" />
                     </div>
-                </section>
+                </section> */}
                 {/* history-area-end */}
                 {/* testimonial-area */}
                 <section className="testimonial-area-three testimonial-area-four">
@@ -621,7 +621,7 @@ export default function AboutUs() {
                 </section>
                 {/* testimonial-area-end */}
                 {/* brand-area */}
-                <div className="brand-area pb-120">
+                {/* <div className="brand-area pb-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -661,7 +661,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* brand-area-end */}
 
 
