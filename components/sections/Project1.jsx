@@ -6,14 +6,14 @@ const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 2,
   spaceBetween: 0,
-    // autoplay: {
-    //   delay: 2500,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     
     
    
-  // loop: false,
+  loop: false,
   // Navigation
   navigation: {
     nextEl: ".swiper-button-next",
