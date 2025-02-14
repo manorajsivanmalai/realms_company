@@ -162,7 +162,7 @@ export default function AboutUs() {
               </div>
 
               <div className="text-center mt-5">
-                <a href="" className="btn">
+                <a href="#contact" className="btn">
                   Let’s Work Together
                 </a>
               </div>

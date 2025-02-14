@@ -4,15 +4,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import ReactPlayer from "react-player";
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 0,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 2500,
+    //   disableOnInteraction: false,
+    // },
+    
     
    
-  loop: false,
+  // loop: false,
   // Navigation
   navigation: {
     nextEl: ".swiper-button-next",
@@ -40,11 +41,11 @@ const swiperOptions = {
       spaceBetween: 0,
     },
     1199: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 0,
     },
     1350: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 0,
     },
   },
@@ -84,29 +85,40 @@ export default function Project1() {
               <div className="project-item-wrap">
                 <div className="swiper-container project-active">
                   <Swiper {...swiperOptions} className="swiper-wrapper">
-                    <SwiperSlide>
+
+                  <SwiperSlide>
                       <div className="project-item">
-                        <Link href="/project-details">
-                         <div className="swiper-contents">
+                     
+                          <img
+                            src="/assets/img/project/slide 1.png"
+                            alt=""
+                          />
+                           <div className="swiper-contents">
                           <div className="text-center">
-                          <h6><b> Reel & Video Production</b></h6>
+                          <h5><b> Reel & Video Production</b></h5>
                           </div>
                           <ul>
                             <li><p><b>Promo Reels</b> – Perfect for product launches, events, and marketing.</p></li>
                             <li><p><b>Corporate Videos</b> – Professional storytelling for your brand.</p></li>
                             <li><p><b>Social Media Shorts</b> – Engaging edits that keep your audience hooked.</p></li>
                           </ul>
+                         
 
                          </div>
-                        </Link>
+                       
                       </div>
                     </SwiperSlide>
+                   
                     <SwiperSlide>
                       <div className="project-item">
-                        <Link href="/project-details">
+                      <img
+                            src="/assets/img/project/slide 2.png"
+                            alt=""
+                          />
+                       
                          <div className="swiper-contents">
                           <div className="text-center">
-                          <h6><b> Branding & Identity</b></h6>
+                          <h5><b> Branding & Identity</b></h5>
                           </div>
                           <ul>
                             <li><p><b>Logos that Speak Volumes</b> – Unique, memorable, and tailored to your brand.</p></li>
@@ -114,15 +126,18 @@ export default function Project1() {
                           </ul>
 
                          </div>
-                        </Link>
+                     
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="project-item">
-                        <Link href="/project-details">
+                      <img
+                            src="/assets/img/project/slide 3.png"
+                            alt=""
+                          />
                          <div className="swiper-contents">
                           <div className="text-center">
-                          <h6><b> Graphic Design</b></h6>
+                          <h5><b> Graphic Design</b></h5>
                           </div>
                           <ul>
                             <li><p><b>Brochures & Flyers</b> – Designed to inform, engage, and convert.</p></li>
@@ -131,15 +146,18 @@ export default function Project1() {
                           </ul>
 
                          </div>
-                        </Link>
+                       
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="project-item">
-                        <Link href="/project-details">
+                      <img
+                            src="/assets/img/project/slide 4.png"
+                            alt=""
+                          />
                          <div className="swiper-contents">
                           <div className="text-center">
-                          <h6><b> Website Development</b></h6>
+                          <h5><b> Website Development</b></h5>
                           </div>
                           <ul>
                             <li><p><b>Custom Website Designs</b> – Sleek, fast, and conversion-driven.</p></li>
@@ -148,7 +166,7 @@ export default function Project1() {
                           </ul>
 
                          </div>
-                        </Link>
+                      
                       </div>
                     </SwiperSlide>
                  

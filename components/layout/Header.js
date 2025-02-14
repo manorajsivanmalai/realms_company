@@ -31,28 +31,14 @@ export default function Header({ scroll, headercls }) {
                                                     </ul>
                                                 </li>
                                                 <li><Link href="#about">About Us</Link></li>
-                                                <li className="menu-item-has-children"><Link href="/#">pages</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/about-me">About Me</Link></li>
-                                                        <li><Link href="/team">Team Page</Link></li>
-                                                        <li><Link href="/team-details">Team Details</Link></li>
-                                                        <li><Link href="/project-details">Portfolio Details</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/contact">Contact Us</Link></li>
-                                                    </ul>
-                                                </li>
-                                                {/* <li className="menu-item-has-children"><Link href="/#">News</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/blog">Our Blog</Link></li>
-                                                        <li><Link href="/blog-details">Blog Details</Link></li>
-                                                    </ul>
-                                                </li> */}
+                                          
+                                               
                                                  <li><Link href="#contact">Contact</Link></li>
                                             </ul>
                                         </div>
                                         <div className="header-action">
                                             <ul className="list-wrap">
-                                                <li className="header-btn"><Link href="contact" className="btn">Contact <span /></Link></li>
+                                                <li className="header-btn"><Link href="#contact" className="btn">Contact <span /></Link></li>
                                             </ul>
                                         </div>
                                     </nav>

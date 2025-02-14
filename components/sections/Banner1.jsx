@@ -15,7 +15,7 @@ export default function Banner1() {
                             <div className="banner-content">
                                 <span className="sub-title wow fadeInUp" data-wow-delay=".2s">Amazing <strong>Starts</strong> Here</span>
                                 <h2 className="title wow fadeInUp" data-wow-delay=".4s">Grow Your Brand with Creative Excellence</h2>
-                                <Link href="/contact" className="btn wow fadeInUp" data-wow-delay=".6s">Contact Us <span /></Link>
+                                <Link href="#contact" className="btn wow fadeInUp" data-wow-delay=".6s">Contact Us <span /></Link>
                             </div>
                         </div>
                     </div>

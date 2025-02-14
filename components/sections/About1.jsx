@@ -9,7 +9,7 @@ export default function About1() {
                         <div className="row align-items-center justify-content-center">
                             <div className="col-46 order-0 order-lg-2">
                                 <div className="about-img text-end">
-                                    <img src="/assets/img/images/about_img.jpg" alt="" />
+                                    <img src="/assets/img/images/about_img.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-54">
@@ -31,7 +31,7 @@ export default function About1() {
                                         </li>
                                         <li>
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                                <img src="/assets/img/icon/Scroll-Stopping Visuals.png" alt="" />
                                             </div>
                                             <div className="content">
                                                 <h4 className="title">Scroll-Stopping Visuals</h4>
@@ -40,7 +40,7 @@ export default function About1() {
                                         </li>
                                         <li>
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                                <img src="/assets/img/icon/Reel & Video Magic.png" alt="" />
                                             </div>
                                             <div className="content">
                                             <h4 className="title">Reel & Video Magic</h4>
@@ -49,7 +49,7 @@ export default function About1() {
                                         </li>
                                         <li>
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                                <img src="/assets/img/icon/Smart Websites.png" alt="" />
                                             </div>
                                             <div className="content">
                                                 <h4 className="title">Smart Websites</h4>
@@ -69,7 +69,7 @@ export default function About1() {
                     <div className="about-below-content">
                           
                             <div className="about-below-images">
-                            <img src="/assets/img/images/about_img.jpg" alt="" />
+                            <img src="/assets/img/images/about_img 2.png" alt="" />
 
                             </div>
                                 
@@ -77,7 +77,7 @@ export default function About1() {
                                 <ul className="list-wrap">
                                         <li>
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon01.png" alt="" />
+                                                <img src="/assets/img/icon/our-designs.png" alt="" />
                                             </div>
                                             <div className="content">
                                                 <p>We <b>don’t do boring—our designs</b> are fresh, modern & impactful.</p>
@@ -85,7 +85,7 @@ export default function About1() {
                                         </li>
                                         <li>
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                                <img src="/assets/img/icon/marketer.png" alt="" />
                                             </div>
                                             <div className="content">
                                                
@@ -94,7 +94,7 @@ export default function About1() {
                                         </li>
                                         <li>
                                             <div className="icon">
-                                                <img src="/assets/img/icon/about_icon02.png" alt="" />
+                                                <img src="/assets/img/icon/deleivery.png" alt="" />
                                             </div>
                                             <div className="content">
                                          
@@ -106,7 +106,7 @@ export default function About1() {
                                     <div className="about-content-bottom">
                                         <span>Let’s make something amazing together</span>
                                         <div className="read-more-btn">
-                                            <Link href="/about-us" className="btn"> Contact Us <span /></Link>
+                                            <Link href="#contact" className="btn"> Contact Us <span /></Link>
                                         </div>
                                     </div>
 
