@@ -30,7 +30,7 @@ export default function Header({ scroll, headercls }) {
                                                         <li><Link href="/index-3">Digital Agency</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/about-us">About Us</Link></li>
+                                                <li><Link href="#about">About Us</Link></li>
                                                 <li className="menu-item-has-children"><Link href="/#">pages</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/about-me">About Me</Link></li>
@@ -41,12 +41,13 @@ export default function Header({ scroll, headercls }) {
                                                         <li><Link href="/contact">Contact Us</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li className="menu-item-has-children"><Link href="/#">News</Link>
+                                                {/* <li className="menu-item-has-children"><Link href="/#">News</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/blog">Our Blog</Link></li>
                                                         <li><Link href="/blog-details">Blog Details</Link></li>
                                                     </ul>
-                                                </li>
+                                                </li> */}
+                                                 <li><Link href="#contact">Contact</Link></li>
                                             </ul>
                                         </div>
                                         <div className="header-action">

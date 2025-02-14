@@ -9,8 +9,9 @@ const swiperOptions = {
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
-
     },
+    
+   
   loop: false,
   // Navigation
   navigation: {
@@ -70,7 +71,7 @@ export default function Project1() {
                 <p>Want to see more? Let’s create something amazing together</p>
                 <div className="content-bottom">
                   <Link href="/about-me" className="btn">
-                   Contact-Us <span />
+                   Contact Us <span />
                   </Link>
                   <div className="project-nav">
                     <button className="swiper-button-prev" />

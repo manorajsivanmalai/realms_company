@@ -2537,6 +2537,24 @@ label {
     gap: 47px;
     padding-top: 25px;
 }
+@media(max-width:767px){
+    .about-below-content{
+        flex-direction: column;
+    }
+    .project-item-wrap .project-item{
+        margin-left: -15px !important;
+        width: 100%;
+    }
+    .testimonial-item-three{
+        width: 45% !important;
+    }
+}
+@media(min-width:768px) and (max-width:1023px){
+    .about-below-content{
+        flex-direction: column;
+    }
+
+}
 .details-below-abt .list-wrap>li{
 
     display: flex;

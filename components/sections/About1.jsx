@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function About1() {
     return (
         <>
-            <section className="about-area">
+            <section className="about-area " id="about">
                 <div className="container custom-container">
                     <div className="about-inner">
                         <div className="row align-items-center justify-content-center">

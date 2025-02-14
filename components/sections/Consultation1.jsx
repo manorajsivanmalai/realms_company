@@ -2,7 +2,7 @@
 export default function Consultation1() {
     return (
         <>
-            <section className="consultation-area pt-120 pb-120">
+            <section className="consultation-area pt-120 pb-120" id="contact">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-7">
