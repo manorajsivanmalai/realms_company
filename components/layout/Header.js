@@ -27,7 +27,7 @@ export default function Header({ scroll, headercls }) {
                                                 <li className="active menu-item-has-children"><Link href="/#">Home</Link>
                                                     <ul className="sub-menu">
                                                         <li className="active"><Link href="/">Creative Agency</Link></li>
-                                                        <li><Link href="/index-3">Digital Agency</Link></li>
+                                                        {/* <li><Link href="/index-3">Digital Agency</Link></li> */}
                                                     </ul>
                                                 </li>
                                                 <li><Link href="#about">About Us</Link></li>
