@@ -44,8 +44,8 @@ export default function Footer1() {
                                         <h4 className="fw-title">About Us</h4>
                                         <div className="footer-about">
                                             <ul className="list-wrap">
-                                                <li><img src="/assets/img/icon/phone_icon.svg" alt="" /><Link href="/tel:7338224950">+91 733 822 4950</Link></li>
-                                                <li><img src="/assets/img/icon/mail_icon.svg" alt="" /><Link href="/mailto:contact@realmsmediaworks.com">contact@realmsmediaworks.com</Link></li>
+                                                <li><img src="/assets/img/icon/phone_icon.svg" alt="" /><Link href="tel:7338224950">+91 733 822 4950</Link></li>
+                                                <li><img src="/assets/img/icon/mail_icon.svg" alt="" /><Link href="mailto:contact@realmsmediaworks.com">contact@realmsmediaworks.com</Link></li>
                                                 <li><img src="/assets/img/icon/loction_icon.svg" alt="" /><span>Hormavu, Bengaluru</span></li>
                                             </ul>
                                         </div>
